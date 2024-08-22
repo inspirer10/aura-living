@@ -1,4 +1,10 @@
 import './globals.scss';
+import './styles/header.scss';
+import './styles/introduction.scss';
+import './styles/featuredProjects.scss';
+import './styles/categories.scss';
+import './styles/ourStory.scss';
+import './styles/footer.scss';
 
 export const metadata = {
     title: 'Aura Living',

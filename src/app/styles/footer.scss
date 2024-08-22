@@ -1,0 +1,51 @@
+footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 90%;
+    margin: 1rem auto;
+    border-top: 1px solid rgb(140, 140, 140);
+    border-bottom: 1px solid rgb(140, 140, 140);
+    padding: 2.25rem 0 2.5rem;
+    div {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        align-items: flex-end;
+        &:first-of-type {
+            align-items: flex-start;
+        }
+        h2 {
+            font-weight: 500;
+            letter-spacing: -0.5px;
+            margin-bottom: 1.5rem;
+        }
+        h6 {
+            font-size: 16px;
+            width: 75%;
+            font-weight: 400;
+            line-height: calc(16px * 1.35);
+            color: #000;
+        }
+        p {
+            font-size: 17px;
+            font-weight: 400;
+            margin: 0.5rem 0;
+            padding: 0.2rem;
+            cursor: pointer;
+            transition: .175s ease-in-out;
+            border-bottom: 1px solid transparent;
+            width: fit-content;
+            &:hover {
+                border-bottom: 1px solid #000;
+            }
+        }
+    }
+}
+
+summary {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 1.25rem auto 1rem;
+}
