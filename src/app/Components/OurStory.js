@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 
@@ -16,6 +17,34 @@ function OurStory() {
                     </button>
                 </p>
             </aside>
+
+            <summary>
+                <div>
+                    <Image
+                        className='image'
+                        src={'/furniture.jpg'}
+                        height={500}
+                        width={400}
+                        alt='product thumbnial'
+                    />
+
+                    <Image
+                        className='image'
+                        src={'/lamp.jpg'}
+                        height={500}
+                        width={400}
+                        alt='product thumbnial'
+                    />
+                </div>
+
+                <Image
+                    className='image top'
+                    src={'/lamp3.jpg'}
+                    height={500}
+                    width={400}
+                    alt='product thumbnial'
+                />
+            </summary>
         </section>
     );
 }

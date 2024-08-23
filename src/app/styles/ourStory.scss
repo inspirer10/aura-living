@@ -38,4 +38,22 @@
             }
         }
     }
+    summary {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        div {
+            display: flex;
+            .image:first-of-type {
+                margin-right: 7.5%;
+            }
+        }
+        .image {
+            &.top {
+                height: 70vh;
+                width: 27.5%;
+                object-fit: cover;
+            }
+        }
+    }
 }

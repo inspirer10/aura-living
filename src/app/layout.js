@@ -4,6 +4,7 @@ import './styles/introduction.scss';
 import './styles/featuredProjects.scss';
 import './styles/categories.scss';
 import './styles/ourStory.scss';
+import './styles/newsletter.scss';
 import './styles/footer.scss';
 
 export const metadata = {

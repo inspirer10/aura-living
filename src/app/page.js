@@ -9,6 +9,7 @@ import Header from './Components/Header';
 import Introduction from './Components/Introduction';
 import OurStory from './Components/OurStory';
 import Footer from './Components/Footer';
+import Newsletter from './Components/Newsletter';
 
 export default function Home() {
     useEffect(() => {
@@ -29,6 +30,7 @@ export default function Home() {
             <FeaturedProjects />
             <Categories />
             <OurStory />
+            <Newsletter />
             <Footer />
         </>
     );
